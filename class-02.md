@@ -46,13 +46,7 @@ A reminder on how to link follow the formula of ```<link href ="" type="" rel=""
 
  
 
-There are quite a few selectors
-
-Selector|Meaning|Example
-
-----------|------------|-----------
-
-universal selector|Applies to all elements in the document|```*``` or ```{}```
+There are quite a few selectors, so check them all out on page 
 
  
 
@@ -97,4 +91,4 @@ The break code makes the code stop running once it goes to the case.
 
 **Truthy** values are treated as if they are true. If it is not falsy then it can be treated as if it were true. Truthy values can be treated as the number 1.  
 
-Logical operators are processed left to right. They short-circuit as soon as they have a result and re
+Logical operators are processed left to right. They short-circuit as soon as they have a result and return the value that stopped the processing. 
