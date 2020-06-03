@@ -1,5 +1,6 @@
-HTML Ch.2 Notes
+# Ch.2 and Ch. 10 HTML Notes
 
+## Ch. 2
 It went over some older tags like bolding and italics, but some new tags that I encountered are the superscript and subscripts. 
 
 ```<sup>``` turns into a superscript while ```<sub>``` turns it into a subscript, which are helpful for mathematics too. 
@@ -40,7 +41,7 @@ There are some elements that don't add new information but rather to place empha
 
 -```<s>``` is used to indicate something that is no longer relevant or true
 
-Ch 10 HTML
+## Ch 10 
 
 A reminder on how to link follow the formula of ```<link href ="" type="" rel="">``` where href specifies the path to the CSS file, type speficies the type of document being linked, and rel specifies the relationship between the HTML page and the file linked.
 
@@ -70,25 +71,9 @@ Each array has a property called length that holds the number of items in the ar
 
 They then go into arithmetic operators which are typical math operators, one new one is the modulus (%) which divides the two values and returns the remainder. Just know that the computer follows PEMDAS, as it should!
 
-Ch 4 JS
+# Ch. 4 JS Notes
+
+## Ch. 4
 
 It begins to go over some comparison operators and logical operators. It then goes into for loops, if else statements, while, and do while loops which are review from code 102 so please check those notes. 
 
-Some new ones in this chapter for me are switch statements. They are kind of like if else statements but only run the "if" part. This is the general setup:
-
-```switch(level) {
-case "One":
-title = 'level 1';
-break;
-
-case "Two";
-title = 'level 2';
-break;```
-
-The break code makes the code stop running once it goes to the case. 
-
-**Falsy** values are treated as if they are false. Falsy values can be treated as the number 0. Note that ```NaN``` is considered falsy...think of it as infinity because NaN is not equivalent to itself. 
-
-**Truthy** values are treated as if they are true. If it is not falsy then it can be treated as if it were true. Truthy values can be treated as the number 1.  
-
-Logical operators are processed left to right. They short-circuit as soon as they have a result and return the value that stopped the processing. 

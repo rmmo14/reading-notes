@@ -1,12 +1,12 @@
-Ch. Intro, 1, 8, 17, 18 HTML and Ch. 1 JS
+# Ch. Intro, 1, 8, 17, 18 HTML and Ch. 1 JS
 
-# Introduction
+## Introduction
 It is pretty much how a webpage is set up on how each of HTML, CSS, and JS play a part to see the web page. 
 
-# Chapter 1
+## Chapter 1
 They begin to go over the structure of an HTML document along with a few common markdown tags. 
 
-# Chapter 8
+## Chapter 8
 It stats to go over some topics we have covered in previous classes like **doctypes, comments, id, class, blocks, inline, span (is an inline div).
 
 A new tag I see is the ```<iframe>```, which is like a little window that has been cut into your page (helpful for pictures or maps).
@@ -16,7 +16,7 @@ A meta tag can house description, keywords, robots (can use noindex or nofollow)
 
 Reference page 194 for some escape characters. 
 
-# Chapter 17
+## Chapter 17
 This goes into some of the contents of an html document. A few new ones are:
 
 ```<aside>```
@@ -26,14 +26,14 @@ This goes into some of the contents of an html document. A few new ones are:
 
 The ```<hgroup>``` tag is used to group together one or more h1-h6 tags and treats them as one single heading. 
 
-# Chapter 18
+# #Chapter 18
 A *site map* is a dagram that shows how the page can be grouped. 
 
 *Card Sorting*: "involves placing each piece of information that a visitor might need to  lnow on a separate piece of paper and then organizing the related infromation into groups." 
 
-## JS
+# JS
 
-# Chapter 1
+## Chapter 1
 
 For writing a script you should 
 1. Define the goal
