@@ -51,3 +51,28 @@ You can reference multiple style sheets on your html. Designers do this when the
 # Ch. 3 and Article 6 JS Notes
 
 ## Ch. 3
+
+- Functions: consist of a series of statements that have been grouped together.
+- Objects: browsers come with built-in objects but we can also create our own. 
+
+When you ask a funtion to perform a task it is known as **calling the function**. Pieces of information passed to a function are known as parameters. The **return value** is the answer you expect. 
+
+**Function Declaration** creates a function that you can call later in your code, and you must give it a name aka *named functions*. 
+
+**Immediately invoked Function Expressions (IIFE)** are functions that are not given a name, rather they are executred once as the interpreter comes across them. 
+
+**Final parentheses** after the closing curly of the code block tell the interpreter to call the function right away. 
+
+A **variable's scope** is where the variable can be used. If it is declared within a function only then it can only be used within the function (local variable). A global variable is when you create a variable outside of a function. 
+
+## Article 6
+
+**Pair programming** involves a Driver and a Navigator. The driver is the one who types and the only one who has hands on the keyboard. The navigator uses their words to guide the Driver, they thinkg about the big picture while scanning for bugs. They can use a screen to view the code but should not be inputting anything. 
+
+Benefits of pair program are:
+1. greater efficency: studies show that though this may take a bit more time, it does provide higher-quality code that doesn't require much debugging. 
+1. Engaged collaboration: this helps both programmers to focus and is harder to procrastinate. 
+1. learning from fellow students: every student has a different skill set so everyone can triage certain parts of code based on their expertise. 
+1. social skills: since all coders have different coding styles, it is important to communicate to avoid errors. This creates interpersonal skills that tie in to the job world. 
+1. job interview readiness: prepares you for interviews where you have to pair program with a current eomployee. 
+1. work environmnet readiness: this is also how companies train their new employees
