@@ -16,3 +16,29 @@ It is the way to create objects. Each key of an object is separated by a comma e
 
 ### Access an Object with Dot Notation
 You can also access properties using square brackets. The "dot" is referred as the member operator. The property or method on its right is a member of the object on its left. ex: `var hotelName = hotel.name;` is the same as `var hotelName = hotel['name'];`
+## Ch. 5 Notes
+"**DOM** stands for **Document Object Model** which specifies how browsers should create a model of an HTML page and how JS can access and update the contens of a web page while it is in the browser window." 
+
+A DOM tree consists of four main types of nodes:
+1. Document node: can think of it as the skeleton of an HTML document html>head>body>ul>li etc.
+1. Element node: the HTML elements describe the structure of an HTML page.
+1. Attribute node: the opening tags of HTML elements that carry attributes.
+1. Text node: once you access an element, you can then reach its text. 
+
+### Step 1: Access the elements
+1. Select an individual element node. There are three ways: `getElementById()`, `querySelector()`, and traversing from one element to the other within DOM tree.
+1. Select multiple elements. There are three ways: `getElementsByClassName()`, `getElementsByTagName()`, and `querySelectorAll()`.
+1. Traversing between element nodes. You can move from one element node to a related element node in the following ways: `parentNode`, `previousSibling/nextSibling`, or `firstChild/lastChild`. 
+
+### Step 2: Work with those elements
+1. Access/Update text nodes. First, select the element, use the firstChild property, then use the text node's only property to get the text from the element. 
+1. Work with HTML content. `innerHTML` allows access to child elements and text content, `textContent` access the text content, and other methods to create new nodes. 
+1. Access or update attribute values. 
+
+**DOM queries** are methods that find elements in the DOM tree. **Caching** is when you store the location of a repetative element in a variable, thus saving the browser time looking through the DOM tree to find it. A **NodeList** is a collection of element nodes, each given an index number like an array though they are considered **collections** but should still use brackets to reference an individual item. 
+
+To select an element from a NodeList use the `item()` method or array syntax. 
+
+*In order to use `.nodeValue` you must be on a text node!
+
+Steps to add content to page: create element, give it content, and add it to the dom. 
