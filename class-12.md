@@ -21,3 +21,43 @@ Here pieData needs to be an array of properties that represent the value and col
 To create a bar char, use the same code as above except after line 12 use:
 `new Chart(x).Bar(barData);`
 Here barData should be properites of labels and datasets. This time using rgba to specify colors that allow transparency. 
+
+## Basic Usage Article Notes
+The canvas element has two attributes, height and width, which both can be set using DOM properties. The default is 300x150 pixels. ManBearPig will not affect the actual drawing. Between the canvas tags you can input alternate content (img, text, etc) for older browsers. 
+
+Canvas element has a method `getContext()` to obtain the rendering context and its drawing functions. 
+
+## Drawing Shapes Article Notes
+Canvas only supports rectangles and paths. Keep note that in reference to the webpage, the top left corner is the origin of a Cartesian plane. 
+
+`____(x,y, width, height)`:
+
+- fillRect - draws a filled rectangle
+- strokeRect - draws a rect outline
+- clearRect = clears the rect area, making it transparent
+
+### To draw a path
+1. `beginPath()` - creates a new path
+1. Path methods to set different paths for objects
+1. `closedPath()` - adds a straight line to the path, going to start of the current sub-path
+1. `stroke()` - draws the shape by stroking its outline
+1. `fill()` - draws a solid shape by filling the path's content area
+
+`moveTo(x,y)` - moves the pen to coordinates (x,y)
+
+To draw lines use `lineTo(x,y)` to draw from current position to (x,y)
+
+### Plenty more methods to draw on article
+
+## Styes/Shapes and Text Articles Notes
+`fillStyle=color` sets stule of filling shapes while `strokeStyle=color` sets style fo shape outline. 
+
+`globalAlpha = transparencyValue` applies the transparency value to all future shapes drwan, value between 0 and 1.
+
+There are various line styles: lineWidth, lineCap, lineJoin, miterLimit, lineDashOffset...getLineDash(), setLineDash(segments)
+
+`lineCap` property takes on butt, round or square.
+
+`lineJoin` property takes on round, bevel or miter.
+
+For text you can use fillText and strokeText similar to above. You can style text by font, textAlign, textBaselin, and direction. 
